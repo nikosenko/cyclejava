@@ -1,6 +1,8 @@
+package ru.netology.mvnjava.services;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import ru.netology.mvnjava.services.CalcService;
+
 
 public class CalcServiceTest {
 
@@ -21,3 +23,4 @@ public class CalcServiceTest {
         Assertions.assertEquals(expected, actual);
     }
 }
+
